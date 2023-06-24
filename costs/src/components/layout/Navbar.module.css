@@ -1,8 +1,15 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
   background-color: #222;
   padding: 1em;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .list {

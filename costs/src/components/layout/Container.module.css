@@ -1,5 +1,4 @@
 .container {
-  width: 1200px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -17,4 +16,10 @@
 .colum {
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

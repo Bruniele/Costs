@@ -13,6 +13,7 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
   return (
     <div className={styles.project_card}>
       <h4>{name}</h4>
+      <div className={styles.dados}>
       <p>
         <span>Orçamento:</span> R${budget}
       </p>
@@ -26,6 +27,7 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
         <button onClick={remove}>
           <BsFillTrashFill /> Excluir
         </button>
+      </div>
       </div>
     </div>
   )
