@@ -18,8 +18,21 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 200,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "faz isso aqui",
+          "id": "783d2dd5-4c44-4028-a521-aa7220dfb3e9"
+        },
+        {
+          "name": "Meu novo serviço 2",
+          "cost": "100",
+          "description": "faz isso aqui",
+          "id": "5a2a533f-ef83-4d2a-bde4-5d5d7c482ac9"
+        }
+      ],
       "id": 3
     }
   ],
