@@ -42,10 +42,10 @@ function Projects() {
 
   function removeProject(id) {
     fetch(`http://localhost:5000/projects/${id}`, {
-    method: 'DELETE',
-    headers: {
-      'Content-Type': 'application/json'
-    },
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json'
+      },
     })
       .then(resp => resp.json())
       .then(() => {
@@ -65,13 +65,14 @@ function Projects() {
       {projectMessage && <Message type="success" msg={projectMessage} />}
       <Container customClass="row">
         {projects.length > 0 &&
-          projects.map((project) => <ProjectCard 
-          id={project.id}
-          name={project.name} 
-          budget={project.budget}
-          category={project.category.name}
-          key={project.id}
-          handleRemove={removeProject}
+          projects.map((project) => 
+          <ProjectCard 
+            id={project.id}
+            name={project.name} 
+            budget={project.budget}
+            category={project.category.name}
+            key={project.id}
+            handleRemove={removeProject}
           />)}
           {!removeLoading && <Loading />}
           {removeLoading && projects.length === 0 &&(

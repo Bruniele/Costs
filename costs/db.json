@@ -7,8 +7,21 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 600,
+      "services": [
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "500",
+          "description": "vai criar a função de envio de e-mails",
+          "id": "ecfe9f31-5271-4dcb-93d7-2d2f012c71bb"
+        },
+        {
+          "name": "Novo serviço",
+          "cost": "100",
+          "description": "Teste",
+          "id": "4fcecbd6-89d2-41a0-a8e6-f0e3cca59051"
+        }
+      ],
       "id": 2
     },
     {
